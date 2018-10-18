@@ -1,0 +1,36 @@
+#contact {
+  padding: 20px 0 0 0;
+  margin-left: auto;
+  margin-right: auto;
+  background: #7E5358;
+}
+
+@media screen and (max-width: 750px) {
+  #contact {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+#contact a {
+  color: white;
+  transition: 0.2s;
+}
+
+#contact a:hover {
+  background: black;
+  transition: 0.2s;
+}
+
+#contact p {
+  background-color: #7e5358;
+  padding: 20px 10%;
+}
+
+#contact hr {
+  width: 20%;
+  height: 5px;
+  background: white;
+  border: 0;
+  margin: 0 auto;
+}
