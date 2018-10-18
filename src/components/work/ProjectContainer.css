@@ -1,0 +1,16 @@
+.projects-and-work-container {
+  padding: 20px 0 80px 0;
+  background-color: rgba(129, 198, 131, 0.8);
+}
+
+.project-list-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.secondary-projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 80%;
+}

@@ -1,0 +1,50 @@
+.other-project {
+  flex-basis: 45%;
+  border-radius: 2px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 0 10px 15px 10px;
+  background: rgba(233, 233, 233, 0.6);
+  color: black;
+}
+
+@media screen and (max-width: 750px) {
+  .other-project {
+    flex-basis: 100%;
+  }
+}
+
+.other-project hr {
+  width: 25%;
+  margin: 0;
+  height: 3px;
+  background: black;
+  border: 0;
+}
+
+.other-project h3 {
+  margin-bottom: 5px;
+}
+
+.other-project .project-link a {
+  text-align: center;
+  font-size: 20px;
+  padding: 5px 10px;
+  background: none;
+  margin: 0 auto;
+  border-radius: 5px;
+  width: 120px;
+  transition: 0.3s;
+  margin-bottom: 10px;
+  text-decoration: none;
+  border: 2px solid black;
+  color: black;
+  transition: 0.3s;
+}
+
+.other-project .project-link a:hover {
+  border: 2px solid white;
+  color: white;
+  background: black;
+  transition: 0.3s;
+}

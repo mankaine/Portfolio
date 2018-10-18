@@ -2,7 +2,7 @@
   padding: 20px 0 0 0;
   margin-left: auto;
   margin-right: auto;
-  background: #7E5358;
+  background: #ac4315;
 }
 
 @media screen and (max-width: 750px) {
@@ -23,7 +23,7 @@
 }
 
 #contact p {
-  background-color: #7e5358;
+  background-color: #ac4315;
   padding: 20px 10%;
 }
 

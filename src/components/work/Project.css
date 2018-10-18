@@ -1,0 +1,89 @@
+.project {
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  padding: 0 10%;
+  height: calc(100vh - 70px);
+}
+
+@media screen and (max-width: 750px) {
+  .project {
+    flex-basis: 100% !important;
+  }
+}
+
+.title { 
+  font-size: 1.5em;
+}
+
+.project-title-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.project-title-container img {
+  height: 50px;
+  width: auto;
+  margin-right: 10px;
+}
+
+.project hr {
+  background: white;
+  width: 50px;
+  height: 2px;
+  margin: 0;
+  border: 0;
+}
+
+.display {
+  display: flex;
+  flex-wrap: column;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.phone-only-display {
+  display: flex;
+  flex-wrap: column;
+  justify-content: space-evenly;
+  margin-top: 15px;
+}
+
+.laptop-only-display {
+  display: flex;
+  flex-wrap: column;
+  justify-content: space-evenly;
+  margin-top: 15px;
+}
+
+.project-link a {
+  text-align: center;
+  font-size: 20px;
+  padding: 5px 10px;
+  background: none;
+  border: 2px solid white;
+  color: white;
+  margin: 0 auto;
+  border-radius: 5px;
+  width: 120px;
+  transition: 0.3s;
+  margin-bottom: 10px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.project-link a:hover {
+  background: white;
+  color: black;
+  transition: 0.3s;
+}
+
+.project-text, .project-tech {
+  width: 60%;
+}
+
+@media screen and (max-width: 750px) {
+  .project-text, .project-tech {
+    width: 100%;
+  }
+}

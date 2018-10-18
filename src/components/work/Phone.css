@@ -1,0 +1,108 @@
+.phone {
+  flex-basis: 15%;
+  height: 27vw;
+  margin-top: auto;
+  margin-bottom: auto;
+  border: 1px #2f4f4f solid;
+  background: linear-gradient(to bottom, #707070 0%, #3F3F3F 100%);
+  border-radius: 2.2vw;
+  box-shadow: 2px 2px 5px black;
+}
+
+.ringer {
+  height: 1vw;
+  width: 3px;
+  margin-top: -23.5vw;
+  background: #696969;
+  margin-left: -0.25vw;
+  border-radius: 1px;
+  border: 1px #2f4f4f solid;
+}
+
+@media screen and (max-width: 750px) {
+  .ringer {
+    margin-left: -0.5vw;
+    width: 1px;
+  }
+}
+
+.volume-button {
+  height: 2.7vw;
+  width: 2px;
+  background: #696969;
+  margin-left: -0.25vw;
+  border-radius: 3px;
+  border: 1px #2F4F4F solid;
+}
+
+@media screen and (max-width: 750px) {
+  .volume-button {
+    margin-left: -0.5vw;
+    width: 1px;
+  }
+}
+
+.up {
+  margin-top: 1vw;
+}
+
+.down {
+  margin-top: 0.5vw;
+}
+
+.power-button {
+  height: 2.5vw;
+  width: 2px;
+  background: #696969;
+  margin-top: -6.5vw;
+  margin-left: auto;
+  margin-right: -0.25vw;
+  border-radius: 3px;
+  border: 1px #2F4F4F solid;
+  box-shadow: 2px 2px 5px black;
+}
+
+@media screen and (max-width: 750px) {
+  .power-button {
+    margin-right: -0.5vw;
+    width: 1px;
+  }
+}
+
+.phone .screen {
+  flex-basis: 20%;
+  height: 26.5vw;
+  margin-top: 0.25vw;
+  margin-left: 0.25vw;
+  margin-right: 0.25vw;
+  border-radius: 2.2vw;
+  background: black;
+}
+
+.phone .screenshot {
+  width: 100%;
+  height: auto;
+  margin-top: 3vw;
+}
+
+.home-button {
+  height: 2vw;
+  width: 2vw;
+  margin-top: calc(26.5vw - 8.5vw - 1.8vw);
+  margin-right: auto;
+  margin-left: auto;
+  background: gray;
+  border-radius: 50%;
+  border: 2px #616161 outset;
+  border-right: 2px solid #343434;
+  border-bottom: 2px solid #343434;
+  background: black;
+}
+
+@media screen and (max-width: 900px) {
+  .home-button {
+    margin-top: calc(26.5vw - 8.5vw - 2vw);
+    height: 1.5vw;
+    width: 1.5vw;
+  }
+}

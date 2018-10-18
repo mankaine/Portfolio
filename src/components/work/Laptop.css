@@ -1,0 +1,60 @@
+.laptop {
+  flex-basis: 65%;
+  border-radius: 2vw 2vw 1vw 1vw;
+  margin-right: 20px;
+}
+
+.top {
+  height: 30vw;
+  width: 95%;
+  background: rgb(33, 38, 37);
+  border-bottom: 1px black solid;
+  box-shadow: 5px 5px 5px black;
+  padding-top: 0.5vw;
+  border-radius: 2vw 2vw 0 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.laptop .screen {
+  width: 99%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 32vw;
+  background: black;
+  border-radius: 2vw 2vw 0 0;
+}
+
+.keyboard {
+  height: 1vw;
+  background: rgb(82, 85, 91);
+  background: linear-gradient(90deg, rgba(160, 167, 180, 1) 0%, rgba(82, 85, 91, 1) 4%, rgba(82, 85, 91, 1) 96%, rgba(160, 167, 180, 1) 100%);
+  width: 100%;
+}
+
+.bottom {
+  height: 0.8vw;
+  background: rgb(33, 38, 37);
+  background: linear-gradient(90deg, rgba(33, 38, 37, 1) 0%, rgba(54, 62, 60, 1) 4%, rgba(54, 62, 60, 1) 96%, rgba(33, 38, 37, 1) 100%);
+  border-radius: 0 0 4vw 4vw;
+  width: 100%;
+  box-shadow: 5px 5px 5px black;
+}
+
+.lifter {
+  height: 0.8vw;
+  width: 25%;
+  border-radius: 0 0 2vw 2vw;
+  margin-left: auto;
+  margin-right: auto;
+  background: #a7adba;
+  background: linear-gradient(90deg, rgba(97, 101, 108, 1) 0%, rgba(201, 209, 226, 1) 4%, rgba(201, 209, 226, 1) 96%, rgba(97, 101, 108, 1) 100%);
+}
+
+.laptop .screenshot {
+  width: 90%;
+  height: auto;
+  margin-left: calc((100% - 90%) / 2);
+  margin-right: calc((100% - 90%) / 2);
+  margin-top: calc((34vw - 31vw) / 2);
+}
