@@ -26,7 +26,7 @@ class MultiPlatformProject extends Component {
         <p className="project-tech">{`Technologies used: ${this.props.tech}`}</p>
         <p className="project-link">
           <a href={this.props.url} target="_blank">
-            View Project
+            {this.props.buttonText || 'View Project'}
           </a>
         </p>
       </div>

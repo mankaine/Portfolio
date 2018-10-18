@@ -16,7 +16,6 @@ class Project extends Component {
   render() {
     return (
       <div style={this.state.styles} className="project">
-        {/* <img src='./images/sq-background.jpg'></img> */}
         <div className='project-title-container'>
           <img src={`./images/${this.state.shortname}-logo.png`}></img>
           <h3 className="title">{this.state.name}</h3>
@@ -25,7 +24,7 @@ class Project extends Component {
         <p className="project-tech">{`Technologies used: ${this.props.tech}`}</p>
         <p className="project-link">
           <a href={this.props.url} target="_blank">
-            View Project
+            {this.props.buttonText || 'View Project'}
           </a>
         </p>
       </div>

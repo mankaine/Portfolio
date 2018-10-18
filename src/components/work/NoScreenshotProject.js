@@ -14,7 +14,7 @@ class NoScreenshotProject extends Project {
       return (
         <div className='project-link'>
           <a href={this.props.url} target="_blank">
-            View Project
+            {this.props.buttonText || 'View Project'}
           </a>
         </div>
       )
