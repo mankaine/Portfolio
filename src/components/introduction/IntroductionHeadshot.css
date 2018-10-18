@@ -1,0 +1,19 @@
+.headshot-container {
+  flex-basis: 30%;
+  padding: 10px 20px 20px 0;
+}
+
+@media screen and (max-width: 750px) {
+  .headshot-container {
+    flex-basis: 70%;
+    margin: 10px auto 0 auto;
+    order: 2;
+  }
+}
+
+.headshot-container .headshot {
+  width: 100%;
+  height: auto;
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px #181818;
+}

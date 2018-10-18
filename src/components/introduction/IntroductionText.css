@@ -1,0 +1,20 @@
+.intro-text-container {
+  flex-basis: 33%;
+}
+
+@media screen and (max-width: 750px) {
+  .intro-text-container {
+    flex-basis: 100%;
+    order: 1;
+  }
+}
+
+.intro-text-container a {
+  color: white;
+  transition: 0.2s;
+}
+
+.intro-text-container a:hover {
+  background: black;
+  transition: 0.2s;
+}
