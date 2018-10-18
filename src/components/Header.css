@@ -1,0 +1,53 @@
+.header {
+  background: black;
+  color: white;
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-left: 10%;
+}
+
+@media screen and (max-width: 750px) {
+  .header {
+      padding-left: 0;
+      text-align: center;
+  }
+}
+
+.menu {
+  list-style-type: none;
+  margin-left: 55%;
+  margin-top: -55px;
+}
+
+.menu li {
+  float: left;
+}
+
+.menu li a {
+  padding: 0 20px;
+  color: white;
+  text-decoration: none;
+  border-left: 1px solid white;
+  transition: 0.3s;
+}
+
+.menu li a:hover { 
+  background: white;
+  color: black;
+  transition: 0.3s;
+}
+
+
+@media screen and (max-width: 750px) { 
+  .menu { 
+      display: table;
+      margin: 0 auto;
+  }
+
+  .menu li { 
+      background: black;
+  }
+}
