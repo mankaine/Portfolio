@@ -2,7 +2,6 @@
   transition: 0.5s;
   -webkit-transition: 0.5s;
   padding: 0 10%;
-  height: calc(100vh - 70px);
 }
 
 @media screen and (max-width: 750px) {
