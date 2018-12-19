@@ -5,15 +5,11 @@ import './NoScreenShotProject.css'
 import './Project.css'
 
 class NoScreenshotProject extends Project {
-  constructor(props) {
-    super(props)
-  }
-
   showButtonIfURLAvailable = () => {
     if (this.props.url) {
       return (
         <div className='project-link'>
-          <a href={this.props.url} target="_blank">
+          <a href={this.props.url} target="_blank" rel='noopener noreferrer'>
             {this.props.buttonText || 'View Project'}
           </a>
         </div>

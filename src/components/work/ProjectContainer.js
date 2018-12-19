@@ -95,7 +95,7 @@ class ProjectContainer extends Component {
               function (e, i) {
                 if (e.crossPlatform === React.statics.medium.noScreenshot) {
                   return (<NoScreenshotProject name={e.name} url={e.url} text={e.text} shortname={e.shortname} key={i} styles={e.styles} tech={e.tech} buttonText={e.buttonText}/>)
-                } else if (e.crossPlatform == React.statics.medium.isCrossPlatform) {
+                } else if (e.crossPlatform === React.statics.medium.isCrossPlatform) {
                   return (<MultiPlatformProject name={e.name} shortname={e.shortname} url={e.url} text={e.text} key={i} styles={e.styles} tech={e.tech} buttonText={e.buttonText}/>)
                 } else {
                   return (<Project name={e.name} shortname={e.shortname} url={e.url} text={e.text} key={i} styles={e.styles} tech={e.tech} buttonText={e.buttonText}/>)
