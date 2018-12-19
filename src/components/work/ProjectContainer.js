@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './ProjectContainer.css'
 import Project from './Project'
 import MultiPlatformProject from './MultiPlatformProject'
+import MobileProject from './MobileProject'
 import NoScreenshotProject from './NoScreenshotProject'
 import SectionTitle from '../../SectionTitle'
 
@@ -21,6 +22,15 @@ class ProjectContainer extends Component {
 
     this.state = {
       featuredProjects: [
+        {
+          name: 'Seal Spotter',
+          shortname: 'seal',
+          crossPlatform: React.statics.medium.isPhoneOnly,
+          url: 'https://www.pacificmmc.org',
+          text: 'The Pacific Marine Mammal Center (PMMC) asked a team of five to develop a mobile app to report resightings of seals and sea lions on the United States West Coast. I developed most features on the reporting phase of the app for both Android and iOS devices, and designed the user interface. Working with my teammates was a great way understand how to collaborate better, and effectivley elicit requirements from the PMMC.',
+          tech: 'Javascript, React Native, Python',
+          buttonText: 'Learn More About the PMMC'
+        },
         {
           name: "Software Engineering Internship at Square, Inc.",
           shortname: "sq",
@@ -93,7 +103,9 @@ class ProjectContainer extends Component {
           {
             this.state.featuredProjects.map(
               function (e, i) {
-                if (e.crossPlatform === React.statics.medium.noScreenshot) {
+                if (e.crossPlatform === React.statics.medium.isPhoneOnly) {
+                  return (<MobileProject name={e.name} url={e.url} text={e.text} shortname={e.shortname} key={i} styles={e.styles} tech={e.tech} buttonText={e.buttonText}/>)
+                } else if (e.crossPlatform === React.statics.medium.noScreenshot) {
                   return (<NoScreenshotProject name={e.name} url={e.url} text={e.text} shortname={e.shortname} key={i} styles={e.styles} tech={e.tech} buttonText={e.buttonText}/>)
                 } else if (e.crossPlatform === React.statics.medium.isCrossPlatform) {
                   return (<MultiPlatformProject name={e.name} shortname={e.shortname} url={e.url} text={e.text} key={i} styles={e.styles} tech={e.tech} buttonText={e.buttonText}/>)
