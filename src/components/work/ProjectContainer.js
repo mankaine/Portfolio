@@ -27,8 +27,8 @@ class ProjectContainer extends Component {
           shortname: 'seal',
           crossPlatform: React.statics.medium.isPhoneOnly,
           url: 'https://www.pacificmmc.org',
-          text: 'The Pacific Marine Mammal Center (PMMC) asked a team of five to develop a mobile app to report resightings of seals and sea lions on the United States West Coast. I developed most features on the reporting phase of the app for both Android and iOS devices, and designed the user interface. Working with my teammates was a great way understand how to collaborate better, and effectivley elicit requirements from the PMMC.',
-          tech: 'Javascript, React Native, Python',
+          text: 'The Pacific Marine Mammal Center (PMMC) asked a team of five to develop a mobile app to report resightings of seals and sea lions on the United States West Coast. I developed most features on the reporting phase of the app for both Android and iOS devices, and designed the user interface. Working with my teammates was a great way understand how to collaborate better, and effecitvely elicit requirements from the PMMC.',
+          tech: 'Amazon Web Services, Javascript, Python, React Native',
           buttonText: 'Learn More About the PMMC'
         },
         {
