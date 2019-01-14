@@ -4,7 +4,7 @@ import Project from './Project'
 import MultiPlatformProject from './MultiPlatformProject'
 import MobileProject from './MobileProject'
 import NoScreenshotProject from './NoScreenshotProject'
-import SectionTitle from '../../SectionTitle'
+import SectionTitle from '../SectionTitle'
 
 class ProjectContainer extends Component {
   constructor(props) {
@@ -27,7 +27,7 @@ class ProjectContainer extends Component {
           shortname: 'seal',
           crossPlatform: React.statics.medium.isPhoneOnly,
           url: 'https://www.pacificmmc.org',
-          text: 'The Pacific Marine Mammal Center (PMMC) asked a team of five to develop a mobile app to report resightings of seals and sea lions on the United States West Coast. I developed most features on the reporting phase of the app for both Android and iOS devices, and designed the user interface. Working with my teammates was a great way understand how to collaborate better, and effectively elicit requirements from the PMMC.',
+          text: 'A mobile application for both Android and iOS to report sightings of rehabilitated sea life on the West Coast. Developed by a team with four others for the Pacific Marine Mammal Center based in Newport Beach, CA.',
           tech: 'Amazon Web Services, Javascript, Python, React Native',
           buttonText: 'Learn More About the PMMC'
         },
@@ -45,14 +45,14 @@ class ProjectContainer extends Component {
           shortname: "ant",
           crossPlatform: React.statics.medium.isCrossPlatform,
           url: "http://antrepreneur.uci.edu",
-          text: "The official website for UC Irvine’s on-campus entrepreneurial resource. I developed new features, like: a facelift the site to create a cleaner, more vibrant site; a blog to showcase ANTrepreneurs ('cause UC Irvine’s mascot is an anteater) and drive site traffic, and; a location feature to announce a new space available for student startups and create renting opportunities for the Center. My other capacities at ANTrepreneur included writing about startups, and working with volunteers and other interns to publish a monthly newsletter.",
+          text: 'Implemented the website redesign for the University of California, Irvine’s, on-campus entrepreneurial resource. Done as part of its rebranding efforts. Provided new features like writer profiles, a blog, and a page promoting the Center’s new office.',
           tech: "HTML, CSS, Bootstrap, Wordpress",
         },
         {
           name: "Schemed",
           shortname: "schemed",
           crossPlatform: React.statics.medium.isCrossPlatform,
-          text: "Schemed is a passion project I'm building with some friends. Right now, I'm working on the front end, but when it is finished, Schemed will provide users a fully integrated way of coordinating meetings and hangouts. Most event planning applications based on availability struggle with aesthetics and availability; our app strives to be strong in both.",
+          text: 'Schemed is a passion project with two other friends; currently in development, it aims to provide a cleaner, more through way of planning events than most scheduling apps today.',
           url: "https://schemed.io",
           tech: "HTML, CSS, Javacscript, React.js",
         },
@@ -60,8 +60,8 @@ class ProjectContainer extends Component {
           name: "Dad Joke Generator",
           shortname: "dad",
           crossPlatform: React.statics.medium.isCrossPlatform,
-          text: "As part of FreeCodeCamp's Front End Certification Program, I created a quote generator that displayed jokes from the front page of reddit's Dad Jokes community. Classes and other projects have definitely been more challenging and educational, but this is my pride and joy. Are your cringing yet? Hi, cringing!",
-          tech: "HTML, CSS, Javascript, Bootstrap, reddit, Twitter",
+          text: 'Laugh (or cringe) to jokes from the Dad Jokes subreddit, and share it through Twitter.',
+          tech: "HTML, CSS, Javascript, Bootstrap, Reddit API, Twitter API",
           url: "https://mankaine.github.io/dad-joke-gen",
         },
       ],
@@ -70,7 +70,7 @@ class ProjectContainer extends Component {
           name: "Spot",
           shortname: "spot",
           crossPlatform: React.statics.medium.noScreenshot,
-          text: "An iOS app currently in development. While I am responsible for the user interface, my roommate collects and preserves transactions. When complete, the app will allow users to track their financial obligations, and make requests or payments. Unlike other mobile payments systems, but like a tree, this application allows users to log payments should be made or asked for before paying or requesting, so users can better meet their responsibilities.",
+          text: 'An iOS app I worked on with my roomate to record IOUs, make requests, and fulfill payments.',
           tech: "Swift, Firebase",
           url: "https://github.com/winstonlan/Spot"
         },
@@ -78,17 +78,9 @@ class ProjectContainer extends Component {
           name: "Check Up",
           shortname: 'chup',
           crossPlatform: React.statics.medium.noScreenshot,
-          text: "Geared towards the forgetful and elderly, Check Up is a health and wellness that app that notifies users when to take their medicines, and alerts others when needed. This app was made during HackUCI 2018, which was a way to work with great friends and learn more about version control, rapid iteration and development, targeting applications to users, and React Native.",
+          text: 'Geared towards the forgetful and elderly, Check Up is a health and wellness that app that notifies users and their support network when to take medication.',
           tech: "HTML, CSS, Javascript, React Native",
           url: "https://github.com/mankaine/hackuci2018",
-        },
-        {
-          name: "Kitchen Buddy",
-          shortname: "kb",
-          crossPlatform: React.statics.medium.noScreenshot,
-          text: 'Use this site to find recipes with given restrictions like time, diet, and available ingredients. Since this was a project from the HackUCI 2017 competition, I also learned how to effectively teach a friend Javascript while planning under a tight timeframe.',
-          tech: "HTML, CSS, Javascript, JQuery",
-          url: "https://mankaine.github.io/kitchenbuddy"
         }
       ]
     }
