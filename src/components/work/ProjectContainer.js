@@ -5,6 +5,7 @@ import MultiPlatformProject from './MultiPlatformProject'
 import MobileProject from './MobileProject'
 import NoScreenshotProject from './NoScreenshotProject'
 import SectionTitle from '../SectionTitle'
+import Card from './Card'
 
 class ProjectContainer extends Component {
   constructor(props) {
@@ -88,34 +89,37 @@ class ProjectContainer extends Component {
 
   render() {
     return (
-      <div className='projects-and-work-container'>
-        <a className="anchor" id="work"></a>
-        <SectionTitle text="Work and Projects" />
-        <div classname='project-list-container'>
-          {
-            this.state.featuredProjects.map(
-              function (e, i) {
-                if (e.crossPlatform === React.statics.medium.isPhoneOnly) {
-                  return (<MobileProject name={e.name} url={e.url} text={e.text} shortname={e.shortname} key={i} styles={e.styles} tech={e.tech} buttonText={e.buttonText}/>)
-                } else if (e.crossPlatform === React.statics.medium.noScreenshot) {
-                  return (<NoScreenshotProject name={e.name} url={e.url} text={e.text} shortname={e.shortname} key={i} styles={e.styles} tech={e.tech} buttonText={e.buttonText}/>)
-                } else if (e.crossPlatform === React.statics.medium.isCrossPlatform) {
-                  return (<MultiPlatformProject name={e.name} shortname={e.shortname} url={e.url} text={e.text} key={i} styles={e.styles} tech={e.tech} buttonText={e.buttonText}/>)
-                } else {
-                  return (<Project name={e.name} shortname={e.shortname} url={e.url} text={e.text} key={i} styles={e.styles} tech={e.tech} buttonText={e.buttonText}/>)
+      <div>
+        <Card />
+        <div className='projects-and-work-container'>
+          <a className="anchor" id="work"></a>
+          <SectionTitle text="Work and Projects" />
+          <div className='project-list-container'>
+            {
+              this.state.featuredProjects.map(
+                function (e, i) {
+                  if (e.crossPlatform === React.statics.medium.isPhoneOnly) {
+                    return (<MobileProject name={e.name} url={e.url} text={e.text} shortname={e.shortname} key={i} styles={e.styles} tech={e.tech} buttonText={e.buttonText}/>)
+                  } else if (e.crossPlatform === React.statics.medium.noScreenshot) {
+                    return (<NoScreenshotProject name={e.name} url={e.url} text={e.text} shortname={e.shortname} key={i} styles={e.styles} tech={e.tech} buttonText={e.buttonText}/>)
+                  } else if (e.crossPlatform === React.statics.medium.isCrossPlatform) {
+                    return (<MultiPlatformProject name={e.name} shortname={e.shortname} url={e.url} text={e.text} key={i} styles={e.styles} tech={e.tech} buttonText={e.buttonText}/>)
+                  } else {
+                    return (<Project name={e.name} shortname={e.shortname} url={e.url} text={e.text} key={i} styles={e.styles} tech={e.tech} buttonText={e.buttonText}/>)
+                  }
                 }
-              }
-            )
-          }
-        </div>
-        <div className='secondary-projects-container'>
-          {
-            this.state.otherProjects.map(
-              function (e, i) {
-                return (<NoScreenshotProject name={e.name} url={e.url} text={e.text} shortname={e.shortname} key={i} styles={e.styles} tech={e.tech} buttonText={e.buttonText} />)
-              }
-            )
-          }
+              )
+            }
+          </div>
+          <div className='secondary-projects-container'>
+            {
+              this.state.otherProjects.map(
+                function (e, i) {
+                  return (<NoScreenshotProject name={e.name} url={e.url} text={e.text} shortname={e.shortname} key={i} styles={e.styles} tech={e.tech} buttonText={e.buttonText} />)
+                }
+              )
+            }
+          </div>
         </div>
       </div>
     );
