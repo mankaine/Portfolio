@@ -21,7 +21,7 @@ const LatteLogCard = props => {
     <Card
       title='Latte Log'
       description='A page for posting adventures in making latte art. Includes uploading images, noting attempts, and saving videos that are helpful resources in making coffee.'
-      techStack='Ruby - Ruby on Rails - HTML - CSS - Javascript - Heroku'
+      techStack='Ruby - Ruby on Rails - HTML - CSS - SCSS - Javascript - Heroku'
       bulbs={bulbs}
       art={art}
     />
