@@ -5,7 +5,10 @@ import MultiPlatformProject from './MultiPlatformProject'
 import MobileProject from './MobileProject'
 import NoScreenshotProject from './NoScreenshotProject'
 import SectionTitle from '../SectionTitle'
-import Card from './Card'
+import LatteLogCard from './Cards/LatteLogCard'
+import SealSpotterCard from './Cards/SealSpotterCard';
+import VideoGameCard from './Cards/VideoGameCard'
+import ANTrepreneurCard from './Cards/ANTrepreneurCard';
 
 class ProjectContainer extends Component {
   constructor(props) {
@@ -90,7 +93,12 @@ class ProjectContainer extends Component {
   render() {
     return (
       <div>
-        <Card />
+        <div style={{'display': 'flex', 'flexDirection': 'row', 'flexWrap': 'wrap'}}>
+          <LatteLogCard />
+          <SealSpotterCard />
+          <VideoGameCard />
+          <ANTrepreneurCard />
+        </div>
         <div className='projects-and-work-container'>
           <a className="anchor" id="work"></a>
           <SectionTitle text="Work and Projects" />

@@ -1,0 +1,19 @@
+.latte-log-card-art .color {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 0;
+}
+
+.latte-log-card-art .larger {
+  width: 12em;
+  height: auto;
+  border-top-right-radius: 10px;
+}
+
+.latte-log-card-art .smaller{
+  width: 10em;
+  height: auto;
+  right: 2em;
+  top: 4em;
+}

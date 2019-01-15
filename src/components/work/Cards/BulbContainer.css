@@ -1,0 +1,8 @@
+.bulb-container {
+  position: absolute;
+  bottom: -1.80em;
+}
+
+.bulb-container .dummy {
+  visibility: hidden;
+}

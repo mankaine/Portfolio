@@ -9,26 +9,7 @@
   padding: 1.5em 1em;
   position: relative;
   box-shadow: 10px 10px 15px 5px black;
-}
-
-.card .color {
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 0;
-}
-
-.card .larger {
-  width: 12em;
-  height: auto;
-  border-top-right-radius: 10px;
-}
-
-.card .smaller{
-  width: 10em;
-  height: auto;
-  right: 2em;
-  top: 4em;
+  margin-bottom: 2em;
 }
 
 .card h1 {
@@ -50,25 +31,6 @@
 .card .tech-stack {
   position: absolute;
   bottom: 1em;
-}
-
-.card .bulb-container {
-  position: absolute;
-  bottom: -1.80em;
-}
-
-.card .bulb-container .bulb-logo {
-  width: 1.5em;
-  height: 1.5em;
-  margin-left: 0.5em;
-  position: absolute;
-  bottom: 1em;
-}
-
-.card .bulb-container .bulb {
-  width: 3.5em;
-  height: auto;
-  margin-right: 1em;
 }
 
 .card .bulb-container .github-link,

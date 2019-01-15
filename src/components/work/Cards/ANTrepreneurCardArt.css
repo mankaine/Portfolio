@@ -1,0 +1,8 @@
+.antrepreneur-card-art .color {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  z-index: 0;
+  width: 10em;
+  height: auto;
+}
