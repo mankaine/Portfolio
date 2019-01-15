@@ -1,0 +1,27 @@
+.work a {
+  padding: 0 20px;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.work a:hover { 
+  text-decoration: underline;
+  color: black;
+  transition: 0.3s;
+  margin-bottom: 0;
+}
+
+.work a h2 {
+  margin-bottom: 0;
+}
+
+.work a span:hover {
+  background:white;
+  transition: 0.3s;
+  color: black;
+}
+
+.work .description {
+  margin-top: 0;
+}

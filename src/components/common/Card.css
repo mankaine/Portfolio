@@ -43,11 +43,13 @@
 .card .bulb-container .github-link,
 .card .bulb-container .project-link{
   position: relative;
+  transition: 3s;
 }
 
 .card .bulb-container .github-link:hover,
 .card .bulb-container .project-link:hover {
   top: 0.25em;
+  transition: 3s;
 }
 
 @media screen and (max-width: 650px) {

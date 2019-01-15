@@ -4,7 +4,8 @@ import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 import Header from './components/header/Header'
 import Introduction from './components/introduction/Introduction'
-import ProjectContainer from './components/work/ProjectContainer'
+import ProjectContainer from './components/projects/ProjectContainer'
+import WorkContainer from './components/work/WorkContainer'
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
       <div className="app">
         <Header />
         <Introduction />
+        <WorkContainer />
         <ProjectContainer />
         <Contact />
         <Footer />

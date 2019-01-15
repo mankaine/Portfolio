@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import "./Contact.css"
-import SectionTitle from '../SectionTitle';
+import SectionTitle from '../common/SectionTitle';
 
 class Contact extends Component {
   render() {

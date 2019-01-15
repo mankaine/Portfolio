@@ -9,6 +9,7 @@ class Header extends Component {
                 <ul className="menu">
                     <li><a style={{border: "0"}} href="#about">About</a></li>
                     <li><a href="#work">Work</a></li>
+                    <li><a href="#projects">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
