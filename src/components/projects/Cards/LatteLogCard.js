@@ -8,11 +8,13 @@ const LatteLogCard = props => {
       className: 'github-link',
       url: 'https://github.com/mankaine/latte-log',
       src: './images/github.png',
+      alt: 'github-logo'
     },
     {
       className: 'project-link',
       url: 'https://latte-log.herokuapp.com',
       src: './images/link-symbol.svg',
+      alt: 'link'
     }
   ]
   const art = < LatteLogCardArt />

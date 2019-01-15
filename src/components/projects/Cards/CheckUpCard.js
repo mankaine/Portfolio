@@ -7,6 +7,7 @@ const CheckUpCard = props => {
       className: 'github-link',
       url: 'https://github.com/mankaine/hackuci2018',
       src: './images/github.png',
+      alt: 'github-logo'
     }
   ]
 

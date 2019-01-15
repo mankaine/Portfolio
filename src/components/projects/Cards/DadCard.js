@@ -7,11 +7,13 @@ const DadCard = props => {
       className: 'github-link',
       url: 'https://github.com/mankaine/hackuci2018',
       src: './images/github.png',
+      alt: 'github-logo'
     },
     {
       className: 'project-link',
       url: 'https://mankaine.github.io/dad-joke-gen/',
       src: './images/link-symbol.svg',
+      alt: 'link'
     }
   ]
 

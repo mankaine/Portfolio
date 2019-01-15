@@ -8,7 +8,7 @@ const generateBulbs = bulbs => {
   }
 
   return bulbs.map(function(link, i) {
-    return <Bulb className={link.className} url={link.url} src={link.src} key={i} />
+    return <Bulb className={link.className} url={link.url} src={link.src} key={i} alt={link.alt} />
   })
 }
 

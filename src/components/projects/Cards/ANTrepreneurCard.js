@@ -8,6 +8,7 @@ const ANTrepreneurCard = props => {
       className: 'project-link',
       url: 'http://antrepreneur.uci.edu',
       src: './images/link-symbol.svg',
+      alt: 'link'
     }
   ]
   const art = <ANTrepreneurCardArt />

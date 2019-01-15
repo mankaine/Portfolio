@@ -7,6 +7,7 @@ const SpotCard = props => {
       className: 'github-link',
       url: 'https://github.com/winstonlan/Spot',
       src: './images/github.png',
+      alt: 'github-logo'
     }
   ]
 

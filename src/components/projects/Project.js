@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import './Project.css'
 
 const selectDesktop = props => {
@@ -15,7 +15,7 @@ const selectMobile = props => {
 
 const selectImage = (imageSrc, className, additionalStyles={}) => {
   if (imageSrc) {
-    return (<img className={className} src={imageSrc} style={additionalStyles}></img>)
+    return (<img className={className} src={imageSrc} style={additionalStyles} alt='project'></img>)
   }
   return (<p></p>)
 }
