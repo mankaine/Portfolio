@@ -1,33 +1,33 @@
-import React, { Component } from 'react';
-import "./Project.css"
+import React, { Component } from 'react'
+import './Project.css'
 
-class Project extends Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      name: props.name,
-      shortname: props.shortname,
-      styles: props.styles,
-    }
-  }
+const selectDesktop = props => {
+  return selectImage(props.desktopImage, 'desktop')
+}
 
-  render() {
-    return (
-      <div style={this.state.styles} className="project">
-        <div className='project-title-container'>
-          <img src={`./images/${this.state.shortname}-logo.png`} alt=''></img>
-          <h3 className="title">{this.state.name}</h3>
-        </div>
-        <p className="project-text">{this.props.text}</p>
-        <p className="project-tech">{`Technologies used: ${this.props.tech}`}</p>
-        <p className="project-link">
-          <a href={this.props.url} target='_blank' rel='noopener noreferrer'>
-            {this.props.buttonText || 'View Project'}
-          </a>
-        </p>
-      </div>
-    );
+const selectMobile = props => {
+  if (props.desktopImage) {
+    return selectImage(props.mobileImage, 'mobile')
   }
+  const forceStay = { 'display': 'block' }
+  return selectImage(props.mobileImage, 'mobile', forceStay)
+}
+
+const selectImage = (imageSrc, className, additionalStyles={}) => {
+  if (imageSrc) {
+    return (<img className={className} src={imageSrc} style={additionalStyles}></img>)
+  }
+  return (<p></p>)
+}
+
+const Project = props => { 
+  return(
+    <div className='new-project-container'>
+      { props.card }
+      { selectDesktop(props) }
+      { selectMobile(props) }
+    </div>
+  )
 }
 
 export default Project

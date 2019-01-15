@@ -7,8 +7,8 @@ class Contact extends Component {
     return (
       <div id="contact">
         <a className="anchor" name="contact"></a>
-        <SectionTitle text="Contact" />
-        <p><a href='mailto:williamkhaine@gmail.com'>Let’s get to know each other</a> over some coffee. Or a burger. Anything, really, as long as it includes food.</p>
+        <SectionTitle text='Stay in Touch' />
+        <p>More coffee? Good. <a href='mailto:williamkhaine@gmail.com'>Let’s get to know each other</a>.</p>
         <hr />
       </div>
     )
