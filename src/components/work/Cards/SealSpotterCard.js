@@ -7,7 +7,7 @@ const SealSpotterCard = props => {
   return(
     <Card
       title='Seal Spotter'
-      description='A mobile application for both Android and iOS to report sightings of rehabilitated sea life on the West Coast. Developed by a team with four others for the Pacific Marine Mammal Center based in Newport Beach, CA.'
+      description='A mobile application for both Android and iOS to report sightings of rehabilitated sea life on the West Coast. Developed in a team with four others for the Pacific Marine Mammal Center based in Newport Beach, CA.'
       techStack='React Native - CSS - Javascript - Python - AWS'
       art={art}
     />

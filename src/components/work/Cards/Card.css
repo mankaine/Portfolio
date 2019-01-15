@@ -1,5 +1,5 @@
 .card {
-  --width: 17em;
+  --width: 14em;
   width: var(--width);
   height: calc(var(--width) * 3 / 2);
   background: white;
@@ -9,7 +9,14 @@
   padding: 1.5em 1em;
   position: relative;
   box-shadow: 10px 10px 15px 5px black;
-  margin-bottom: 2em;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@media screen and (max-width: 620px) {
+  .card {
+    margin-bottom: 2em;
+  }
 }
 
 .card h1 {

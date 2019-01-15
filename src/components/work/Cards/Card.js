@@ -1,7 +1,6 @@
 import React from 'react'
 import './Card.css'
 import BulbContainer from './BulbContainer'
-import LatteLogCardArt from './LatteLogCardArt'
 
 const Card = props => {
   return(
