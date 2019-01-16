@@ -14,7 +14,7 @@ const ProjectContainer = () => {
   return (
     <div>
       <div className='projects-and-work-container'>
-        <a className="anchor" id="projects"></a>
+        <button className="anchor" id="projects"></button>
         <SectionTitle text='Portfolio' />
         <div className='featured-projects-container' >
           <h2 style={{'width': '80%', 'marginLeft': '10%'}}>Featured Projects</h2>

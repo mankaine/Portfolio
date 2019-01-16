@@ -8,7 +8,7 @@ class Introduction extends Component {
   render() {
     return (
       <div className="intro-wrapper" >
-        <a className="anchor" id="about"></a>
+        <button className="anchor" id="about"></button>
         <div className='intro'>
           <IntroductionHeadshot />
           <IntroductionText />

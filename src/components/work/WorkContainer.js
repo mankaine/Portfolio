@@ -8,7 +8,7 @@ const WorkContainer = () => {
   return (
     <div>
       <div className='projects-and-work-container'>
-        <a className="anchor" id="work"></a>
+        <button className="anchor" id="work"></button>
         <SectionTitle text='Work' />
         <div className='work-container'>
           <SquareWork />
