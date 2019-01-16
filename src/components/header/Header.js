@@ -7,10 +7,30 @@ class Header extends Component {
             <div className="header">
                 <h1>Will Khaine</h1>
                 <ul className="menu">
-                    <li><a style={{border: "0"}} href="#about">About</a></li>
-                    <li><a href="#work">Work</a></li>
-                    <li><a href="#projects">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li>
+                        <a href="#about">
+                            <img src='./images/icons8-user-filled-100.png' alt='About'></img>
+                            <span>About</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#work">
+                            <img src='./images/icons8-cv-filled-100.png' alt='Work'></img>
+                            <span>Work</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#projects">
+                            <img src='./images/icons8-source-code-filled-48.png' alt='Projects'></img>
+                            <span>Portfolio</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact">
+                            <img src='./images/icons8-communication-filled-100.png' alt='Connect'></img>
+                            <span>Connect</span>
+                        </a>
+                    </li>
                 </ul>
             </div>
         )

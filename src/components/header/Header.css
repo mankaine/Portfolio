@@ -7,13 +7,14 @@
   top: 0;
   left: 0;
   padding-left: 10%;
+  padding-right: 10%;
   z-index: 1000;
 }
 
 @media screen and (max-width: 750px) {
   .header {
-      padding-left: 0;
-      text-align: center;
+    padding-left: 0;
+    text-align: center;
   }
 }
 
@@ -23,32 +24,87 @@
   margin-top: -55px;
 }
 
+.menu li:first-child {
+  border-left: 0;
+}
+
 .menu li {
   float: left;
+  border-left: 1px solid white;
+}
+
+.menu li:hover {
+  background: white;
+  transition: 0.3s;
 }
 
 .menu li a {
   padding: 0 20px;
   color: white;
   text-decoration: none;
-  border-left: 1px solid white;
   transition: 0.3s;
 }
 
-.menu li a:hover { 
-  background: white;
+.menu li a:hover {
   color: black;
-  transition: 0.3s;
 }
 
+.menu li a img {
+  display: none;
+}
 
-@media screen and (max-width: 750px) { 
-  .menu { 
-      display: table;
-      margin: 0 auto;
+@media screen and (max-width: 1140px) {
+  .menu {
+    margin-left: 40%;
+  }
+}
+
+@media screen and (max-width: 795px) {
+  .menu {
+    margin-left: 35%;
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .menu {
+    display: table;
+    margin: 0 auto;
   }
 
-  .menu li { 
-      background: black;
+  .menu li {
+    background: black;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .menu li {
+    width: 80px;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .menu li a {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
+
+  .menu li a img {
+    display: block;
+    width: 30px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .menu li a:hover img {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+  }
+
+  .menu li a span {
+    display: none;
   }
 }
