@@ -16,7 +16,7 @@ const ANTrepreneurCard = props => {
   return(
     <Card
       title='ANTrepreneur Center Website'
-      description='Implemented the website redesign for the University of California, Irvine’s, on-campus entrepreneurial resource. Provided new features like writer profiles, a blog, and a page promoting the Center’s new office.'
+      description='Implemented the website redesign, providing new features like writer profiles, a blog, a blog, and a page promoting the Center’s new office.'
       techStack='HTML - CSS - PHP - Wordpress'
       art={art}
       bulbs={bulb}

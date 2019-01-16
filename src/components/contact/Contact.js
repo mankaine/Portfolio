@@ -6,8 +6,8 @@ class Contact extends Component {
   render() {
     return (
       <div id="contact">
-        <a className="anchor" name="contact"></a>
-        <SectionTitle text='Stay in Touch' />
+        <button className="anchor" name="contact"></button>
+        <SectionTitle text='Connect' />
         <p>More coffee? Good. <a href='mailto:williamkhaine@gmail.com'>Let’s get to know each other</a>.</p>
         <hr />
       </div>
