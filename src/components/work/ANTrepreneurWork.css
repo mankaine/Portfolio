@@ -1,0 +1,9 @@
+.antrepreneur-logo {
+  position: absolute;
+  z-index: -1;
+  top: 1.5em;
+  left: -3em;
+  width: 10em;
+  height: auto;
+  opacity: 0.7;
+}

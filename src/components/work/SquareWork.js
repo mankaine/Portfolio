@@ -1,5 +1,6 @@
 import React from 'react'
 import Work from './Work'
+import './SquareWork.css'
 
 const SquareWork = props => {
   const resp = [
@@ -14,6 +15,9 @@ const SquareWork = props => {
       url='https://squareup.com'
       description={'I interned on the Compliance Engineering team at Square during the summer of 2018. Here\'s what I did:'}
       responsibilities={resp}
+      imageSrc='./images/square.01.png'
+      imageAlt='Square Logo'
+      imageClass='square-logo'
     />
   )
 }

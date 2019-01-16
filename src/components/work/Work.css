@@ -1,7 +1,13 @@
+.work {
+  position: relative;
+}
+
 .work a {
   padding: 0 20px;
   color: white;
   transition: 0.3s;
+  position: relative;
+  z-index: 1;
 }
 
 .work a:hover { 

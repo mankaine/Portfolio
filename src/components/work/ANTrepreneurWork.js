@@ -1,5 +1,6 @@
 import React from 'react'
 import Work from './Work'
+import './ANTrepreneurWork.css'
 
 const ANTrepreneurWork = props => {
   const resp = [
@@ -15,6 +16,9 @@ const ANTrepreneurWork = props => {
       url='http://antrepreneur.uci.edu'
       description={'The on-campus resource for entrepreneurs at the University of California, Irvine. During my two and a half years there, here\'s what I did:'}
       responsibilities={resp}
+      imageSrc='./images/ac-logo.svg'
+      imageAlt='Antrepreneur Center Logo'
+      imageClass='antrepreneur-logo'
     />
   )
 }

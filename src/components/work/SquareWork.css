@@ -1,0 +1,9 @@
+.square-logo {
+  position: absolute;
+  z-index: -1;
+  top: -1em;
+  left: -5em;
+  width: 13em;
+  height: auto;
+  opacity: 0.7;
+}

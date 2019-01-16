@@ -19,6 +19,7 @@ const generateResponsibilities = props => {
 
 const Work = props => {
   return(<div className='work'>
+    <img className={props.imageClass} src={props.imageSrc} alt={props.imageAlt}></img>
     <a href={props.url} target='_blank' rel='noopener noreferrer'>
       <h2><span className='title-content'>{props.title}</span></h2>
     </a>
