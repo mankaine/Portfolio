@@ -15,6 +15,16 @@
   .header {
     padding-left: 0;
     text-align: center;
+    background: black;
+    margin-bottom: 0;
+    padding-bottom: 2em;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .header {
+    padding-bottom: 3em;
   }
 }
 
@@ -74,6 +84,7 @@
 
   .menu li {
     background: black;
+    margin-top: -1em;
   }
 }
 

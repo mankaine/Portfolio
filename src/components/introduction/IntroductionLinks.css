@@ -4,7 +4,7 @@
   display: flex;
   flex-wrap: wrap;
   margin-left: 10px;
-  padding: 60px 5px 20px 5px;
+  padding-top: 16vh;
 }
 
 @media screen and (max-width: 990px) {
@@ -33,6 +33,24 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+}
+
+@media screen and (max-width: 990px) {
+  .link-container {
+    flex-basis: 50%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .link-container {
+    flex-basis: auto;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .link-container {
+    flex-basis: 100%;
+  }
 }
 
 .link-container a {

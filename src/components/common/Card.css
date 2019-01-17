@@ -4,13 +4,20 @@
   height: calc(var(--width) * 3 / 2);
   background: white;
   border-radius: 10px;
-  font-family: 'Futura', sans-serif;
   color: black;
   padding: 1.5em 1em;
   position: relative;
   box-shadow: 5px 5px 20px 0px #131111;
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.card h1 {
+  line-height: 1em;
+}
+
+.card p, .card div {
+  line-height: 1.2em;
 }
 
 @media screen and (max-width: 960px) {

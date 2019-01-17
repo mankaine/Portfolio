@@ -6,4 +6,5 @@
 .intro {
   display: flex;
   flex-flow: wrap;
+  flex-direction: row;
 }

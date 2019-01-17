@@ -13,7 +13,7 @@ body {
   background: linear-gradient(-2deg, #3A2067 0%, rgba(154,155,157,0.87) 53%, #0B1983 100%, #0B1882 100%);
   color: white;
   margin: 0 auto;
-  font-family: 'Futura', sans-serif;
+  font-family: 'Futura', 'Poppins', sans-serif;
 }
 
 .header ~ * {
