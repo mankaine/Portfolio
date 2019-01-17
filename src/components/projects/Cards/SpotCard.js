@@ -14,7 +14,7 @@ const SpotCard = props => {
   return(
     <Card
       title='Spot'
-      description='An iOS app I worked on with my roomate to record IOUs, make requests, and fulfill payments.'
+      description='An iOS app I worked on with my roommate to help users keep track of who they need to pay, and who owes them.'
       techStack='Swift - Firebase'
       bulbs={bulb}
     />

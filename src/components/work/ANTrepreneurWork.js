@@ -4,7 +4,7 @@ import './ANTrepreneurWork.css'
 
 const ANTrepreneurWork = props => {
   const resp = [
-    'Implemented the site facelift as part of the Center\'s rebranding strategy.',
+    'Facelifted the organization\'s website as part of its rebranding strategy.',
     'Created a native blog page to showcase student entrepreneurs and drive site traffic.',
     'Promoted the new office available for student startups and create revenue opportunities for the Center.',
     'Interviewed and wrote about student businesses, and led writing, editing, and publishing of monthly e-newsletter.'
