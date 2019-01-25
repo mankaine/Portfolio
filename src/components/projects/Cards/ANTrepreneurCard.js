@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from '../../common/Card'
+import FeaturedProjectCard from '../../common/FeaturedProjectCard'
 import ANTrepreneurCardArt from './ANTrepreneurCardArt'
 
 const ANTrepreneurCard = props => {
@@ -14,7 +14,7 @@ const ANTrepreneurCard = props => {
   const art = <ANTrepreneurCardArt />
 
   return(
-    <Card
+    <FeaturedProjectCard
       title='ANTrepreneur Center Website'
       description='Implemented the website redesign, providing new features like a blog, writer profiles, and a page promoting the Center’s new office.'
       techStack='HTML - CSS - PHP - Wordpress'

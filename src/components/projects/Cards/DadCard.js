@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from '../../common/Card'
+import OtherProjectCard from '../../common/OtherProjectCard'
 
 const DadCard = props => {
   const bulb = [
@@ -18,7 +18,7 @@ const DadCard = props => {
   ]
 
   return(
-    <Card
+    <OtherProjectCard
       title='Dad Joke Generator'
       description='Randomly selects Dad Jokes (yes, people like them) from Reddit and provides the ability to tweet them.'
       techStack='HTML - CSS - Javascript - jQuery - Twitter API - Reddit API'

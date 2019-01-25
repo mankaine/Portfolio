@@ -2,6 +2,7 @@ import './ProjectContainer.css'
 import ANTrepreneurCard from './Cards/ANTrepreneurCard';
 import CheckUpCard from './Cards/CheckUpCard'
 import DadCard from './Cards/DadCard'
+import DataStructuresCard from './Cards/DataStructuresCard'
 import LatteLogCard from './Cards/LatteLogCard'
 import Project from './Project'
 import React from 'react'
@@ -28,6 +29,7 @@ const ProjectContainer = () => {
           <SpotCard />
           <CheckUpCard />
           <DadCard />
+          <DataStructuresCard />
         </div>
       </div>
     </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from '../../common/Card'
+import OtherProjectCard from '../../common/OtherProjectCard'
 
 const SpotCard = props => {
   const bulb = [
@@ -12,7 +12,7 @@ const SpotCard = props => {
   ]
 
   return(
-    <Card
+    <OtherProjectCard
       title='Spot'
       description='An iOS app I worked on with my roommate to help users keep track of who they need to pay, and who owes them.'
       techStack='Swift - Firebase'

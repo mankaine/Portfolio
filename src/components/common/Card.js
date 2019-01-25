@@ -4,7 +4,7 @@ import BulbContainer from './BulbContainer'
 
 const Card = props => {
   return(
-    <div className='card'>
+    <div className={`${props.className} card`}>
       <h1>{props.title}</h1>
       <p>{props.description}</p>
       { props.art }
